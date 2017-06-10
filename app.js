@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/change_name');
 const passport = require('passport');
-const LocalStrategy - require('passport-local').Strategy;
+const LocalStrategy = require('passport-local').Strategy;
 
 const app = express();
 
